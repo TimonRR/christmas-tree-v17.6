@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+artifacts/
+*.log
+.env
+.env.*
+.tools/
+christmas-tree-v17.6-html.zip
