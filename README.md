@@ -2,6 +2,10 @@
 
 单文件 HTML 圣诞树，带金色粒子、飘雪、手势识别、照片挂饰和音乐。支持电脑拖动旋转与手机触摸。
 
+在线地址：<https://timonrr.github.io/christmas-tree-v17.6/>
+
+GitHub 仓库：<https://github.com/TimonRR/christmas-tree-v17.6>
+
 ## 来源
 
 源码来自 <https://github.com/liq47317-boop/christmas-tree-v17.6> 的 `main/index.html`。
@@ -36,4 +40,4 @@ python3 -m http.server 8080 --bind 127.0.0.1
 - 摄像头权限允许后，可用手势控制；没有摄像头也可使用按钮与拖动。
 - 手势识别需要 HTTPS 或 localhost；首次加载需联网下载依赖和模型。
 
-本目录只准备了部署文件。远程仓库创建、上传和上线须使用自己的 GitHub 登录身份完成。
+本仓库使用 GitHub Actions 发布到 GitHub Pages。向 `main` 推送更新后，工作流自动更新在线页面。
